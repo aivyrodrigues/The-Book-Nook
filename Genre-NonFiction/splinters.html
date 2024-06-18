@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<meta charset="UTF-8">
+    <title>The Book Nook | Non-Fiction | Splinters</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+    <link rel="icon" type="image/x-icon" href="../Icons/favicon.ico">
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+        }
+        .left-column {
+            flex: 1;
+            text-align: center;
+        }
+        .right-column {
+            flex: 1;
+            padding: 0 20px;
+        }
+        img {
+            max-width: 80%;
+            max-height: 80vh;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+        }
+        th {
+            text-align: left;
+            font-weight: bold;
+        }
+        .add-to-cart-btn {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            border: 2px solid black;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .add-to-cart-btn:hover {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+	<div class="topnavbar">
+		<a href="../MainPages/Home.html"><img src="../Icons/Logo.png" width=60 height=60 alt="">The Book Nook</a>
+	<div class="search">
+		<input type="text" placeholder="Search...">
+		<a href="../MainPages/PageUnderRenovation.html"><img src="../Icons/Search.png" width=40 height=40 alt=""></a>
+	</div>
+	<div class="topnavbar-right">
+		<table>
+			<tr>
+				<td>
+					<a href="../MainPages/Account.html"><img src="../Icons/Account.png" width=40 height=40 alt=""></a>
+				</td>
+				<td>
+					<a href="../MainPages/PageUnderRenovation.html"><img src="../Icons/Cart.png" width=40 height=40 alt=""></a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	</div>
+	<div class="categorynavbar">
+		<ul>
+            <li><a href="../GenreNavPages/Genre-Fiction.html">Fiction</a></li>
+            <li><a href="../GenreNavPages/Genre-Non-Fiction.html">Non-Fiction</a></li>
+            <li><a href="../GenreNavPages/Genre-Thriller.html">Thriller</a></li>
+            <li><a href="../GenreNavPages/Genre-Humour.html">Humour</a></li>
+            <li><a href="../GenreNavPages/Genre-Action.html">Action</a></li>
+            <li><a href="../GenreNavPages/Genre-Romance.html">Romance</a></li>
+            <li><a href="../GenreNavPages/Genre-Drama.html">Drama</a></li>
+            <li><a href="../GenreNavPages/Genre-Kids.html">Kids</a></li>
+            <li><a href="../Events/january.html">Events</a></li>
+		</ul>
+	</div>
+    <div class="container">
+		<div>
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1691437771i/155685405.jpg" height="1300" width="1600" alt="">
+        <div style="text-align: center; margin-top: 10px; font-weight: bold;">ISBN: 123256798999</div></div>
+		<div style="padding-left: 20px;">
+            <table class="book-table">
+                <tr>
+                    <td style="font-weight: bold; font-size: 50px;">Splinters</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 27px;">Leslie Jamison</td>
+                </tr>
+                <tr>
+                    <td>4.04 ⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+					<td>From the New York Times bestselling author of The Recovering and The Empathy Exams comes the riveting story of rebuilding a life after the end of a marriage—an exploration of motherhood, art, and new love.
+ 
+Leslie Jamison has become one of our most beloved contemporary voices, a scribe of the real, the true, the complex. She has been compared to Joan Didion and Susan Sontag, acclaimed for her powerful thinking, deep feeling, and electric prose. But while Jamison has never shied away from challenging material—scouring her own psyche and digging into our most unanswerable questions across four books— Splinters enters a new realm.</td>
+                </tr>
+				<tr>
+                    <td>272 pages</td>
+                </tr>
+            </table>
+			<a class="add-to-cart-btn" href="../MainPages/PageUnderRenovation.html">Add to Cart</a>
+        </div>
+	</div>
+	<div class="footer">
+		<ul>
+			<li><a href="../MainPages/About-Us.html" class="active">About Us</a></li>
+			<li><a href="../MainPages/Awards.html" class="active">Awards</a></li>
+			<li><a href="../MainPages/Help.html" class="active">Help</a></li>
+			<li><a href="../MainPages/Contact-Us.html" class="active">Contact Us</a></li>
+		</ul>
+		<p>&#169; 2024 The Book Nook. All rights reserved.</p>
+	</div>
+</body>
+</html>
