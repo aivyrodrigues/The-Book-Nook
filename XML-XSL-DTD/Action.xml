@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../XML-XSL-DTD/Action.xsl"?>
+<!DOCTYPE note SYSTEM "books.dtd">
+
+<library>
+	<book>
+		<Title> Kindling </Title>
+		<Summary> From bestselling and award-winning author Traci Chee comes a standalone fantasy set against a war-ravaged world where kindling warfare—the use of elite, magic-wielding teenage soldiers—has been outlawed. In this rich and evocative novel, seven kindlings search for purpose and identity as they prepare for one final battle. For fans of the classic films Seven Samurai and The Magnificent Seven.
+						Once, the war was fought with kindlings—elite, magic-wielding warriors whose devastating power comes at the cost of their own young lives. </Summary>
+		<Pages> 423 </Pages>
+		<ISBN> 123567890199 </ISBN>
+		<Author> Traci Chee </Author>
+		<Price> AED 102.78 </Price>
+	</book>
+	
+	<book>
+		<Title> Fatal Witness </Title>
+		<Summary> As a child, artist and potter Dani Bennett witnessed the brutal murder of her parents. With no memory of the incident or her true identity, she was forced to take on a new name and a new life, hidden away in Montana for the past 25 years. Mae Richmond has spent the same stretch of time searching for her granddaughter, who went missing the night her daughter and son-in-law were murdered. Convinced the woman she saw in a pottery magazine feature is the woman she's been searching for, she enlists the help of K-9 officer Mark Lassiter of Pearl Springs, Tennessee, who tracks Dani down. </Summary>
+		<Pages> 400 </Pages>
+		<ISBN> 123567890189 </ISBN>
+		<Author> Patricia Bradley </Author>
+		<Price> AED 22.00 </Price>
+	</book>
+
+	<book>
+		<Title> Kingpin </Title>
+		<Summary> The latest pulse-pounding thriller from Edgar and Barry Award finalist Mike Lawson starring his beloved Washington DC “troubleshooter” Joe DeMarco. Carson Newman doesn’t wear tracksuits. He doesn’t have a consigliere or operate out of the back room of a restaurant. And as evidenced by his ever-growing Boston empire, he doesn’t get his hands dirty. Usually. Joe DeMarco, on the other hand, is paid to get his hands dirty. So, when John Mahoney, the former Speaker of the House, calls, DeMarco knows it’s time to get to work. Brian Lewis, an intern for Mahoney, has been found dead, seemingly from a drug overdose. But Brian didn’t seem like a drug user, and even more concerning, he seemed to be on the cusp of releasing a report that identified a group of politicians who had taken bribes in helping dismantle a recent bill.  Brian’s mom is convinced that Brian was murdered because of what he’d learned, and it doesn’t take long for DeMarco to come to a similar conclusion. In a city full of shadowy agreements and duplicitous deals, DeMarco will soon learn that to get to the bottom of Brian’s death, he’ll have to look at people perched the very top of the world. </Summary>
+		<Pages> 282 </Pages>
+		<ISBN> 	123567890299 </ISBN>
+		<Author> Mike Lawson </Author>
+		<Price> AED 51.37 </Price>
+	</book>
+	
+	<book>
+		<Title> Blood Weaver </Title>
+		<Summary> As the last female blood mage, many would kill to claim the power surging through her veins.
+						For years Leila has hidden.
+						Who she is.
+						Where she came from.
+						What she can do.
+						But the long-lost Princess refuses to run forever. Those she loves lied to her. Betrayed her for a greater good. Even in her absence, she's being used as a pawn in political power plays.
+						Now, Leila is determined to discover why.Thrust into a world she no longer remembers, Leila must fight to discover who she can trust as malicious threats close in from all sides. In a world where the past casts long shadows, Leila will discover that the threads of fate can be rewoven … but not without a cost. </Summary>
+		<Pages> 268 </Pages>
+		<ISBN> 123567890149 </ISBN>
+		<Author> Karina Espinosa </Author>
+		<Price> AED 20.10 </Price>
+	</book>
+	
+	<book>
+		<Title> Dark Dive </Title>
+		<Summary> A Wall Street Journal bestselling series. Searching for a missing diver takes a Florida detective on a deep-diving adventure in a gripping thriller by the Amazon Charts bestselling author of Sea Castle . After the Underwater Investigation Unit’s disbandment, public outcry ushers Sloan McPherson and her partner, former navy diver Scott Hughes, back into the depths of crime solving. But Sloan’s return comes with a personal case. Longtime family friend Fred Stafford has disappeared. Left his abandoned truck in the vicinity of an unmarked sinkhole and new findings that have Sloan second-guessing everything she thought she knew about the man. There are his gambling debts, his association with a treasure-hunting band of underwater cavern junkies called the Dive Rats, and most alarming of all, a discovery in Stafford’s storage shed that raises the stakes even higher and plunges Sloan into an unfathomable mystery. As Sloan’s investigation unfolds, a tragic Florida cold case, local superstitions, and a shocking conspiracy collide. For Sloan, finding Stafford and uncovering the buried secrets of the past soon drag her deeper into the dark unknown than she feared. </Summary>
+		<Pages> 296 </Pages>
+		<ISBN> 123567890169 </ISBN>
+		<Author> Andrew Mayne </Author>
+		<Price> AED 21.00 </Price>
+	</book>
+	
+	<book>
+		<Title> The Secret </Title>
+		<Summary> 1992. Eight respectable, upstanding people have been found dead across the US. These deaths look like accidents and don't appear to be connected. Until one body - the victim of a fatal fall from a hospital window - generates some unexpected attention.
+						That attention comes from the Secretary of Defence, who promptly calls for an inter-agency task force to investigate. Jack Reacher is assigned as the Army's representative.
+						Reacher may be an exceptional soldier, but sweeping other people's secrets under the carpet isn't part of his skill set. As he races to discover the link between these victims, and who killed them, he must navigate around the ulterior motives of his new 'partners'. And all while moving into the sight line of some of the most dangerous people he has ever encountered. </Summary>
+		<Pages> 400 </Pages>
+		<ISBN> 123567890499 </ISBN>
+		<Author> Lee Child </Author>
+		<Price> AED 67.97 </Price>
+	</book>
+	
+	<book>
+		<Title> The Edge </Title>
+		<Summary> The 6:20 Man is back, dropped by his handlers into a small coastal town in Maine to solve the murder of a CIA agent who knew America’s dirtiest secrets—can Travis Devine uncover the truth before his time runs out?
+ 
+When CIA operative Jenny Sikwell is murdered in rural Maine, government officials have immediate concerns over national security. Her laptop and phone were full of state secrets that, in the wrong hands, endanger the lives of countless operatives. In need of someone who can solve the murder quickly and retrieve the missing information, the U.S. government knows just the chameleon they can call on. </Summary>
+		<Pages> 417 </Pages>
+		<ISBN> 123567890179 </ISBN>
+		<Author> David Baldacci </Author>
+		<Price> AED 127.90 </Price>
+	</book>
+	
+	<book>
+		<Title> Lone Wolf </Title>
+		<Summary> Once a black book government assassin known as Orphan X, Evan Smoak left the program, went deep underground, and reinvented himself as someone who will go anywhere, and risk everything to help the truly desperate who have nowhere else to turn. Since then, Evan has fought international crime syndicates and drug cartels, faced down the most powerful men in the world and even brought down a President. Struggling with an unexpected personal crisis, Evan goes back to the very basics of his mission - and this time, the truly desperate is a little girl who wants him to find her missing dog.
+
+Not his usual mission, and not one Evan embraces with enthusiasm, but this unlikely, tiny job quickly explodes into his biggest mission yet. one that finds him battered between twisted AI technocrat billionaires, a mysterious female assassin who seems a mirror of himself, and personal stakes so gut-wrenching he can scarcely make sense of them. </Summary>
+		<Pages> 389 </Pages>
+		<ISBN> 123567890399 </ISBN>
+		<Author> Gregg Andrew </Author>
+		<Price> AED 116.11 </Price>
+	</book>
+	
+	<book>
+		<Title> Swamp Spies </Title>
+		<Summary> Things have reached a critical point in the Middle East. Carter agreed to serve as a consultant for his old Force Recon unit but for reasons unknown to his friends and family, jumped from the command center and into the field. Now he’s MIA, and Fortune is the only one who can put together a rescue mission that has any chance of being successful. But will her skills and connections be enough?Most Sinful residents are unaware of Carter’s crisis and are going about their daily lives as they always have, including local prankster Gage Babin. Except this time, Gage’s attempt to elicit laughs leaves him on a slab in the medical examiner’s office. Everyone knows how unhealthy he was, but Fortune thinks there’s more to his death than a poorly timed prank that caused his bad heart to give out.Unfortunately, what she knows and what she can prove are two different things. And unless she can find the evidence to support her theory, someone will get away with murder. </Summary>
+		<Pages> 314 </Pages>
+		<ISBN> 123567890599 </ISBN>
+		<Author> Jana Deleon </Author>
+		<Price> AED 29.35 </Price>
+	</book>
+	
+	<book>
+		<Title> The Chaos Agent </Title>
+		<Summary> Artificial intelligence leads to shockingly real danger for the Gray Man in this latest entry in the #1 New York Times bestselling series.A car accident in Japan.A drowning in Seoul.A home invasion in Boston.Someone is killing the world’s leading experts on robotics and artificial intelligence. Is it a tech company trying to eliminate the competition or is it something even more sinister?After all, artificial intelligence may be the deadliest battlefield gamechanger since the creation of gunpowder. The first nation to field weapons that can act at the speed of computer commands will rule the battlefield.It’s an irresistible lure for most, but not for the Gray Man. His quest for a quiet life has led him to Central America where he and his lover, Zoya Zakharova, have assumed new identities. With a list of enemies that  includes billionaires, terrorists, and governments, they need to keep a low profile, but the world’s deadliest assassin can’t expect to hide out forever.Eventually, they’re tracked down and offered a job by an old acquaintance of Zoya’s. </Summary>
+		<Pages> 556 </Pages>
+		<ISBN> 123567890159 </ISBN>
+		<Author> Mark Greaney </Author>
+		<Price> AED 110.16 </Price>
+	</book>
+	
+	<book>
+		<Title> Unnatural Death </Title>
+		<Summary> In this thrilling new installment of Patricia Cornwell’s #1 bestselling Scarpetta series, chief medical examiner Dr. Kay Scarpetta finds herself in a Northern Virginia wilderness examining the remains of two campers wanted by federal law enforcement.
+ 
+The victims have been mauled beyond recognition, and other evidence is terrifying and baffling including a larger-than-life footprint.  
+ 
+After the most frightening body retrievals of her career, Scarpetta must discover who would commit murders this savage, and why. </Summary>
+		<Pages> 432 </Pages>
+		<ISBN> 123567890699 </ISBN>
+		<Author> Patricia Cornwell </Author>
+		<Price> AED 55.04 </Price>
+	</book>
+	
+	<book>
+		<Title> Dark Matter </Title>
+		<Summary> In this world he's woken up to, Jason's life is not the one he knows.
+                    His wife is not his wife. His son was never born. And Jason is not an ordinary college physics professor,
+                    but a celebrated genius who has achieved something remarkable. Something impossible. Is it this world or the other that's the dream?
+                    And even if the home he remembers is real, how can Jason possibly make it back to the family he loves? The answers lie in a journey
+                    more wondrous and horrifying than anything he could've imagined - one that will force him to confront the darkest parts of himself
+                    even as he battles a terrifying, seemingly unbeatable foe. </Summary>
+		<Pages> 368 </Pages>
+		<ISBN> 9781101904244 </ISBN>
+		<Author> Blake Crouch </Author>
+		<Price> AED 59.50 </Price>
+	</book>
+</library>

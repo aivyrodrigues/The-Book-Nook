@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Book Nook | Account</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+	<link rel="icon" type="image/x-icon" href="../Icons/favicon.ico">
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .account-info {
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .account-info label {
+            font-weight: bold;
+        }
+
+        .account-info p {
+            margin: 10px 0;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button-container button {
+            padding: 10px 20px;
+            background-color: #E2D1B3;
+            color: black;
+            border: 1px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin: 0 5px; /* Added margin between buttons */
+        }
+
+        .button-container button:hover {
+            background-color: #f0f0f0; /* Changed hover background color */
+			
+        }
+		
+		.categorynavbar {
+			width: 100%;
+			padding: 5px 5px;
+			background: #D2B48C; /* Light brown */
+			margin-bottom: 20px; /* Added margin-bottom */
+		}
+    </style>
+</head>
+
+<body>
+    <div class="topnavbar">
+        <a href="Home.html"><img src="../Icons/Logo.png" width="60" height="60" alt="">The Book Nook</a>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+            <a href="PageUnderRenovation.html"><img src="../Icons/Search.png" width="40" height="40" alt=""></a>
+        </div>
+        <div class="topnavbar-right">
+            <table>
+                <tr>
+                    <td>
+                        <a href="Account.html"><img src="../Icons/Account.png" width="40" height="40" alt=""></a>
+                    </td>
+                    <td>
+                        <a href="PageUnderRenovation.html"><img src="../Icons/Cart.png" width="40" height="40" alt=""></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+	<div class="categorynavbar">
+        <ul>
+            <li><a href="../GenreNavPages/Genre-Fiction.html">Fiction</a></li>
+            <li><a href="../GenreNavPages/Genre-Non-Fiction.html">Non-Fiction</a></li>
+            <li><a href="../GenreNavPages/Genre-Thriller.html">Thriller</a></li>
+            <li><a href="../GenreNavPages/Genre-Humour.html">Humour</a></li>
+            <li><a href="../GenreNavPages/Genre-Action.html">Action</a></li>
+            <li><a href="../GenreNavPages/Genre-Romance.html">Romance</a></li>
+            <li><a href="../GenreNavPages/Genre-Drama.html">Drama</a></li>
+            <li><a href="../GenreNavPages/Genre-Kids.html">Kids</a></li>
+            <li><a href="../Events/january.html">Events</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>My Library Account</h1>
+        <div class="account-info">
+            <label>Username:</label>
+            <p>john_doe</p>
+            <label>Email:</label>
+            <p>john.doe@example.com</p>
+            <label>Membership:</label>
+            <p>Gold Member</p>
+            <label>Borrowed Books:</label>
+            <p>3</p>
+        </div>
+        <div class="button-container">
+            <button>Edit Profile</button>
+            <button>Change Password</button>
+            <button>View Borrowed Books</button>
+            <button>Logout</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li><a href="../MainPages/About-Us.html" class="active">About Us</a></li>
+            <li><a href="../MainPages/Awards.html" class="active">Awards</a></li>
+            <li><a href="../MainPages/Help.html" class="active">Help</a></li>
+            <li><a href="../MainPages/Contact-Us.html" class="active">Contact Us</a></li>
+        </ul>
+        <p>&#169; 2024 The Book Nook. All rights reserved.</p>
+    </div>
+</body>
+
+</html>
