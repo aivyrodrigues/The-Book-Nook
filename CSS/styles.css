@@ -1,0 +1,324 @@
+/* CSS Format Document */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+body {
+    background-color: #F6EFD5; /* Soft pastel background */
+}
+
+.topnavbar {
+    background-color: #E2D1B3; /* Slightly darker brown */
+    display: flex;
+    padding: 16px 16px;
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+}
+
+.topnavbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Cutesy font */
+    font-weight: bold;
+}
+
+.topnavbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.topnavbar-right table {
+    margin-right: 20px; /* Add margin for spacing */
+}
+
+.topnavbar-right table td {
+    padding: 0 5px; /* Adjust padding for spacing */
+}
+
+.search {
+    width: 65%;
+    background-color: #E2D1B3; /* Slightly darker brown */
+    border-radius: 20px; /* Curved border */
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    width: 35%; /* Adjust width of the search bar */
+    background-color: #E2D1B3; /* Slightly darker brown */
+    border-radius: 20px; /* Curved border */
+    display: flex;
+    align-items: center;
+}
+
+.search input[type=text] {
+    flex: 1;
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+    border: 3px solid #000000;
+    border-radius: 20px; /* Curved border */
+    background-color: #E2D1B3; /* Slightly darker brown */
+}
+
+.search img {
+    margin-left: 5px; /* Adjust margin for spacing */
+}
+
+.categorynavbar {
+    width: 100%;
+    padding: 5px 5px;
+    background: #D2B48C; /* Light brown */
+}
+
+.categorynavbar ul {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.categorynavbar a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.categorynavbar ul li {
+    list-style-type: none;
+    color: #A6A6A6;
+    display: inline-block;
+    font-size: 16px;
+    width: 153px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #000000; /* Add border all around */
+    margin: -1px; /* Offset to prevent doubling of borders */
+    cursor: pointer;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Cutesy font */
+    align-items: center;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.categorynavbar ul li:first-child {
+    border-left: none; /* Remove left border for the first button */
+}
+
+.categorynavbar ul li:last-child {
+    border-right: none; /* Remove right border for the last button */
+}
+
+.categorynavbar ul li:nth-child(2) {
+    border-left: 1px solid #000000; /* Add left border for "Fiction" */
+}
+
+.categorynavbar ul li:nth-child(7) {
+    border-right: none; /* Remove right border for "Events" */
+}
+
+.categorynavbar ul li:hover {
+    background: #C19A6B;
+    color: black;
+    font-weight: bold;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 16px 16px;
+    background: #D2B48C;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer ul li {
+    list-style-type: none;
+    color: #A6A6A6;
+    display: inline-block;
+    font-size: 16px;
+    width: 153px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #000000; /* Add border all around */
+    margin: -1px; /* Offset to prevent doubling of borders */
+    cursor: pointer;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    align-items: center;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.footer ul li:hover {
+    background: #C19A6B;
+    color: black;
+    font-weight: bold;
+}
+
+.footer p {
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Cutesy font */
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+h2 {
+    margin-top: 20px; /* Add space before the "Kids" title */
+}
+
+.book-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px; /* Add padding to the container */
+    overflow-y: auto; /* Allow vertical scrolling */
+    max-height: calc(100vh - 320px); /* Limit the height of the container */
+}
+
+/* Add hover effect to book images */
+.book-container img:hover {
+    transform: scale(1.1); /* Scale the image on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.book-table {
+    margin: 10 auto; /* This centers the table horizontally */
+}
+
+.book {
+    text-align: center;
+}
+
+.book img {
+    width: 150px;
+    height: 250px;
+}
+
+.book p {
+    margin: 5px;
+}
+
+.page-content .book-table button {
+    background-color: white; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+	border: 2px solid #000000
+}
+
+.page-content .book-table button:hover {
+    background-color: black; 
+	color: white;
+}
+
+.main-content {
+    display: flex;
+	justify-content: flex-start; /* Start from left */
+    padding: 20px;
+    overflow-x: hidden; /* Enable horizontal scroll */
+    overflow-y: auto; /* Hide vertical scroll */
+    white-space: nowrap; /* Prevent books from wrapping */
+}
+
+.left-content {
+    flex: 3;
+    margin-right: 0px; /* Add some space between the sections */
+}
+
+.right-content {
+    margin-left: 100px; /* Add some space between the sections */
+}
+
+.left-content h1 {
+    text-align: left;
+}
+
+.book-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Dynamic grid */
+    gap: 2px;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.book-section img:hover {
+    transform: scale(1.1); /* Scale the image on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+/* Book of the Month section */
+.book-of-the-month {
+    text-align: center; /* Align the content to the left */
+    margin-top: 5px; /* Increase the top margin for spacing */
+    width: 70%; /* Set the width of the section */
+    float: left; /* Align the section to the left */
+    padding: 20px; /* Add padding for better visual separation */
+}
+
+.book-of-the-month img {
+    width: 250px; /* Increase the width of the book image */
+    height: 400px; /* Increase the height of the book image */
+}
+
+.book-of-the-month img:hover {
+    transform: scale(1.1); /* Scale the image on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.book-of-the-month p {
+	margin: 10px; /* Adjust margin for spacing */
+    font-size: 20px; /* Increase font size for better readability */
+}
+
+.book-row {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.book-row p {
+    margin: 5px;
+}
+
+img {
+    vertical-align: middle;
+    border-radius: 10px; /* Add rounded corners */
+}
+
+.book img {
+    width: 150px;
+    height: 250px;
+    border-radius: 10px; /* Add rounded corners */
+}
