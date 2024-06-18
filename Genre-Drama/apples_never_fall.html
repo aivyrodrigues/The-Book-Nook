@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<meta charset="UTF-8">
+    <title>The Book Nook | Drama | Apples Never Fall</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+    <link rel="icon" type="image/x-icon" href="../Icons/favicon.ico">
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+        }
+        .left-column {
+            flex: 1;
+            text-align: center;
+        }
+        .right-column {
+            flex: 1;
+            padding: 0 20px;
+        }
+        img {
+            max-width: 80%;
+            max-height: 80vh;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+        }
+        th {
+            text-align: left;
+            font-weight: bold;
+        }
+        .add-to-cart-btn {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            border: 2px solid black;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .add-to-cart-btn:hover {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+	<div class="topnavbar">
+		<a href="../MainPages/Home.html"><img src="../Icons/Logo.png" width=60 height=60 alt="">The Book Nook</a>
+	<div class="search">
+		<input type="text" placeholder="Search...">
+		<a href="../MainPages/PageUnderRenovation.html"><img src="../Icons/Search.png" width=40 height=40 alt=""></a>
+	</div>
+	<div class="topnavbar-right">
+		<table>
+			<tr>
+				<td>
+					<a href="../MainPages/Account.html"><img src="../Icons/Account.png" width=40 height=40 alt=""></a>
+				</td>
+				<td>
+					<a href="../MainPages/PageUnderRenovation.html"><img src="../Icons/Cart.png" width=40 height=40 alt=""></a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	</div>
+	<div class="categorynavbar">
+		<ul>
+            <li><a href="../GenreNavPages/Genre-Fiction.html">Fiction</a></li>
+            <li><a href="../GenreNavPages/Genre-Non-Fiction.html">Non-Fiction</a></li>
+            <li><a href="../GenreNavPages/Genre-Thriller.html">Thriller</a></li>
+            <li><a href="../GenreNavPages/Genre-Humour.html">Humour</a></li>
+            <li><a href="../GenreNavPages/Genre-Action.html">Action</a></li>
+            <li><a href="../GenreNavPages/Genre-Romance.html">Romance</a></li>
+            <li><a href="../GenreNavPages/Genre-Drama.html">Drama</a></li>
+            <li><a href="../GenreNavPages/Genre-Kids.html">Kids</a></li>
+            <li><a href="../Events/january.html">Events</a></li>
+		</ul>
+	</div>
+    <div class="container">
+		<div>
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1611956842i/56143578.jpg" height="1300" width="1600" alt="">
+        <div style="text-align: center; margin-top: 10px; font-weight: bold;">ISBN: 123567891999</div></div>
+		<div style="padding-left: 20px;">
+            <table class="book-table">
+                <tr>
+                    <td style="font-weight: bold; font-size: 50px;">Apple Never Fall</td>
+                </tr>
+                <tr>
+                    <td style="font-size: 27px;">Liane Moriarty</td>
+                </tr>
+                <tr>
+                    <td>3.77 ⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+					<td>From #1 New York Times bestselling author Liane Moriarty comes a novel that looks at marriage, siblings, and how the people we love the most can hurt us the deepest
+
+The Delaney family love one another dearly—it’s just that sometimes they want to murder each other . . .
+
+If your mother was missing, would you tell the police? Even if the most obvious suspect was your father?
+
+This is the dilemma facing the four grown Delaney siblings.
+
+The Delaneys are fixtures in their community. The parents, Stan and Joy, are the envy of all of their friends. They’re killers on the tennis court, and off it their chemistry is palpable. But after fifty years of marriage, they’ve finally sold their famed tennis academy and are ready to start what should be the golden years of their lives. So why are Stan and Joy so miserable?</td>
+                </tr>
+				<tr>
+                    <td>467 pages</td>
+                </tr>
+            </table>
+			<a class="add-to-cart-btn" href="../MainPages/PageUnderRenovation.html">Add to Cart</a>
+        </div>
+	</div>
+		<div class="footer">
+		<ul>
+			<li><a href="../MainPages/About-Us.html" class="active">About Us</a></li>
+			<li><a href="../MainPages/Awards.html" class="active">Awards</a></li>
+			<li><a href="../MainPages/Help.html" class="active">Help</a></li>
+			<li><a href="../MainPages/Contact-Us.html" class="active">Contact Us</a></li>
+		</ul>
+		<p>&#169; 2024 The Book Nook. All rights reserved.</p>
+	</div>
+</body>
+</html>
